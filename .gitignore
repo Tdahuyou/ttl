@@ -82,6 +82,6 @@ coverage/
 dist/
 temp/
 tmp/
-*.min.js
+# *.min.js
 *.min.css
 *.map
