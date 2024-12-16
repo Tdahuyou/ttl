@@ -1,1 +1,2 @@
-基于 [electron](https://github.com/Tdahuyou/electron).0056 笔记的二开。嵌入了一个语雀编辑器，用于在录制视频前编写视频内容概述信息，在讲解过程中就参考着编写的点逐一讲解。
+- 基于 [electron](https://github.com/Tdahuyou/electron).0056 笔记的二开。
+- 嵌入了一个语雀编辑器，用于在录制视频前编写视频内容概述信息，在讲解过程中就参考着编写的点逐一讲解。
