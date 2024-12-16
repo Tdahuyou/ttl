@@ -1,0 +1,32 @@
+{
+  "name": "ttl",
+  "version": "1.0.0",
+  "description": "time & todolist",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "generate-icon": "electron-icon-builder --input=./src/icon.png --output=./build",
+    "build": "npm run generate-icon && electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "electron-icon-builder": "^2.0.1"
+  },
+  "build": {
+    "appId": "tdahuyou.electron.demo-display-cur-time",
+    "mac": {
+      "icon": "build/icons/mac/icon.icns"
+    },
+    "win": {
+      "icon": "build/icons/win/icon.ico"
+    },
+    "linux": {
+      "icon": "build/icons/png/"
+    }
+  }
+}
