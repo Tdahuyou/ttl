@@ -56,7 +56,7 @@ window.onload = function () {
       timeContainerDOM.style.display = "none";
       yuqueEditor.style.width = '100vw';
     } else {
-      timeContainerDOM.style.display = "block";
+      timeContainerDOM.style.display = "flex";
       yuqueEditor.style.width = '50vw';
     }
   }
