@@ -51,12 +51,15 @@ window.onload = function () {
 
   // 监听窗口尺寸改变事件，当宽度小于 1000px 时，隐藏 timeContainerDOM。
   const timeContainerDOM = document.getElementById("time-container");
+  const neUI = document.querySelector(".ne-ui");
   const resize = () => {
     if (window.innerWidth < 1000) {
       timeContainerDOM.style.display = "none";
+      neUI.style.display = "none";
       yuqueEditor.style.width = '100vw';
     } else {
       timeContainerDOM.style.display = "flex";
+      neUI.style.display = "block";
       yuqueEditor.style.width = '50vw';
     }
   }

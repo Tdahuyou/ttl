@@ -67,7 +67,7 @@ body {
 .ne-ui {
   /* 隐藏 */
   display: none;
-  /* background-color: white; */
+  background-color: white;
 }
 
 /* 设置 #yuque-editor 区域不可拖拽，否则光标会丢失。 */
